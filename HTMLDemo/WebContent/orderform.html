@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comviva  order form</title>
+</head>
+<body>
+	<header>
+		<h1 style="color:red;text-align:center;text-transform:uppercase">comviva store</h1>
+		<div style="width:100%;text-align:center"><a href="home.html">HOME</a></div>
+		<hr style="height:2px;background-color:blue"/>
+	</header>
+	<article Style="min-height:450px">
+	 <h2 style="color:blue;text-align:center;text-transform:capitalise">Contact us</h2>
+     <form>
+     	<table cellpadding="10" cellspaceing="0" bgcolor="gray" style="margin:0px auto"">
+     		<tr>
+     			<td>Product name</td>
+     			<td><input type="text" pattern="[a-zA-Z]{3,15}" placeholder="enter product name"/></td>
+     		</tr>
+     		<tr>
+     			<td>Quantity</td>
+     			<td><input type="number" placeholder="enter quantity" required min="1" max="5" /></td>
+     			<td><input type="range" required min="1" max="5" step="1" value="1"/></td>
+     		</tr>
+     		<tr>
+     			<td>Email</td>
+     			<td><input type="email"/></td>
+     		</tr>
+     		<tr>
+     			<td>Panel color</td>
+     			<td><input type="color" name="txtcolor"/></td>
+     		</tr>
+     		<tr>
+     			<td>Phone Number</td>
+     			<td><input type="number" name="txtphone" pattern="[789][0-9][9]"/></td>
+     		</tr>
+     		<tr>
+     			<td><input type="submit" value="order product"/></td>
+     			<td><input type="reset"/></td>
+     		</tr>
+     	
+     	</table>
+     </form>
+     
+     
+     </article>
+     <footer align="center">
+     	<hr/>
+     	<a href="home.html"><img src="images/images/home.jpg" height="50" width= "50"/></a><br/>
+     	&copy; copyrights reserved 2019 
+     </footer>
+
+</body>
+</html>

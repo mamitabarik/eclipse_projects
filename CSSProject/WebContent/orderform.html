@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comviva - Order Product</title>
+<link href="comviva.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<h1>comviva store</h1>
+		<div>
+			<div  id="headerimg"><a href="home.html"><img src="images/H.jpg" /></a></div>
+		</div>
+		
+	</header>
+	<article>
+		<h2>order
+			form</h2>
+		<form >
+			<table>
+				<tr>
+					<td>Product Name</td>
+					<td><input type="text" pattern="[a-zA-Z]{3,15}" placeholder="enter product name" name="txtname"/></td>
+				</tr>
+				<tr>
+					<td>Quantity</td>
+					<td><input type="number" placeholder="enter qty" required min="1" max="5" step="1"/>
+					<input type="range"   min="1" max="5" step="1" value="1"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="txtemail"/></td>
+				</tr>
+				<tr>
+					<td>Panel color</td>
+					<td><input type="color" name="txtcolor"/></td>
+				</tr>
+				<tr>
+					<td>Phone no</td>
+					<td><input type="tel" pattern="[789][0-9]{9}" name="txtphone"/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="order product"/></td>
+					<td><input type="reset"/></td>
+				</tr>
+			</table>
+
+		</form>
+
+	</article>
+	<footer>
+	
+		<a href="home.html"><img src="images/home1.png" /></a><br />
+		 &copy; copyrights reserved 2019
+	</footer>
+</body>
+</html>

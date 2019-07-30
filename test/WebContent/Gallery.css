@@ -1,0 +1,21 @@
+
+#gallery{
+	width:60%;
+	margin:0px auto;
+	display:flex;
+	flex-wrap:wrap;
+}
+#gallery div{
+	
+	background-color:wheat;
+	box-shadow:5px 5px 5px black;
+	margin:15px;
+	border:1px solid red;
+}
+#gallery div img{
+	
+	heignt:100px;
+	width:200px;
+	transition:transform 2s;
+	
+}

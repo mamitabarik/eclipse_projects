@@ -1,0 +1,156 @@
+header, footer{
+	text-align:center;
+	background: -webkit-linear-gradient(left,#ff3232,#ffe5e5,#ff3232);
+	background-color:#ffe5e5;
+	padding:10px;
+	color:#800000;
+	margin:-8px;
+	
+}
+body{
+	background-color:#ffe5e5;
+}
+header div{
+	width:100%;
+	text-align:right;
+}
+article{
+	min-height:450px;
+	width:100%;
+}
+.homepage{
+	min-height:500px;
+}
+h1 {
+	text-align:center;
+	font-size:40px;
+	color:#800000;
+	text-shadow:5px 5px 5px #ff8040;
+	text-transform: uppercase;
+}
+#searchbar{
+	width:500px;
+	margin:0px auto;
+}
+.search{
+	width:400px;
+}
+
+hr{
+	 height:1px;
+	 background-color:red;
+}
+article{
+	min-height:450px;
+}
+h2{
+	color:#b20000;
+	text-align:center;
+	text-transform: uppercase;
+}
+#mainmenu{
+		display: flex;
+	}
+	#mainmenu a{
+		color:white;
+		text-decoration:none;
+		text-align:center;
+		
+	}
+	#mainmenu a div{
+		width:225px;
+		background-color:#ff3232  ;
+		padding:10px;
+		margin:10px;
+		border-radius:5px;
+		box-shadow:5px 5px 5px black;
+	}
+	#mainmenu a div:hover{
+		background-color:#cc0000;
+		
+	}
+	#mainmenu a:hover{
+		color:white;
+		
+	}
+video {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 30%;
+  padding:20px;
+}
+footer img{
+	margin: auto;
+  	width: 4%;
+  	height: 3%;
+}
+header img{
+	text-align: left;
+  	width: 4%;
+  	height: 3%;
+}
+#catlog{
+	display:flex;
+	margin:0px auto;
+	width:34%;
+	flex-wrap:wrap;
+}
+#catlog div{
+	background-color:#fdd5b9;
+	margin:10px;
+}
+table{
+	height:50%;
+	width:60%;
+	border: 1px solid black;
+	margin:0px auto;
+	background-color:#ffb2b2;
+	padding:0px;
+	spacing:0px;
+}
+thead{
+	color:white;
+	background-color:#ff0000;
+}
+th {
+  text-align: center;
+  border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
+td img{
+	height:100%;
+	 width:100%;
+
+}
+td img:hover{
+		transform:scale(1.5,1.5);
+	}
+tbody tr:hover {background-color:#f15c77;}
+tfoot{
+	background-color:maroon;
+	color:white;
+	column-span:all;
+	text-align:center;
+}
+
+.contactimg{
+	width:350px;
+	margin:0px auto;
+}
+.contactimg  figure{
+	text-align:center;
+}
+.contactaddress{
+	width:200px;
+	margin:0px auto;
+	
+}
+span.heading{
+	font-weight:bold;
+	}
+span.addr{
+	font-style: italic;
+}
